@@ -1,0 +1,109 @@
+/* General Body Styles for all pages except the home page */
+body {
+  background-color: #f3e5f5; /* Default background for all other pages */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Home Page Background Image */
+body.homepage {
+  background-image: url('../images/parent-child.jpg'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(243, 229, 245, 0.8); /* Translucent overlay */
+}
+
+/* General Header, Section, and Footer Styles */
+header, section, footer {
+  background-color: rgba(255, 255, 255, 0.9); /* White translucent background for all pages */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #7b1fa2;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ba68c8;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #7b1fa2;
+  color: white;
+}
+
+section p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Premium Page Specific Styles */
+body.premium-page {
+  background-color: #f3e5f5;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  background-color: #e1bee7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.btn-upgrade {
+  display: inline-block;
+  background-color: #8e24aa;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-upgrade:hover {
+  background-color: #ba68c8;
+}
+/* Screen Time Tracking Image Style */
+.tracking-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
